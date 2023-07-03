@@ -67,7 +67,7 @@ export const userSignin = asyncHandler(
   }
 );
 
-//get all admins
+//get all sellers
 export const getAllUser = async (req: Request, res: Response) => {
   try {
     const user = await userModel.find();

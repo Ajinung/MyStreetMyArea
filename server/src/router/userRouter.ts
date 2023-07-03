@@ -9,7 +9,7 @@ const userRoutes = Router();
 userRoutes.post("/login", loginValidation ,  userSignin);
 userRoutes.post("/register", registerValidation, userSignup);
 userRoutes.get("/", getAllUser);
-userRoutes.get("/:staffId", getOneUser);
+userRoutes.get("/:userId", getOneUser);
 
 
 

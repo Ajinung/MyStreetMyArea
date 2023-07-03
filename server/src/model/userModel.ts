@@ -28,9 +28,13 @@ const userSchema = new mongoose.Schema<userAuth>(
     phoneNum: {
       type: String,
     },
-    location : {
-      type : String
-    }
+    
+products:[
+  {
+    type : mongoose.Schema.Types.ObjectId,
+    ref: "AllProducts"
+  }
+],
   },
   { timestamps: true }
 );
