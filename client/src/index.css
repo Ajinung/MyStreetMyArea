@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  font-family: "Lato", sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 body {
@@ -60,4 +60,11 @@ h1 {
       scrollbar-width: none; /* Firefox */
     }
   }
+}
+
+/* Login and Register Button */
+button.primary{
+  background-color: #8c52ffdb;
+  @apply p-2 w-full text-white rounded-2xl;
+
 }
